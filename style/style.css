@@ -1,3 +1,12 @@
 body {
     background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: #f56262;
+    text-decoration: none;   
+}
+a:hover {
+    color: #f54242;
+    font-weight: 600;  
 }
