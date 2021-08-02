@@ -1,0 +1,9 @@
+.header {
+    background-color: red;
+    display: block;
+    margin: 1rem 2rem 5rem 2rem;
+
+}
+.header__topBar {
+    display: flex;
+}
