@@ -1,9 +1,12 @@
 .header {
-    background-color: red;
+    background-color: #f0f0f0;
     display: block;
     margin: 1rem 2rem 5rem 2rem;
-
 }
 .header__topBar {
     display: flex;
+}
+.header__topBar__section {
+    justify-content: space-around;
+    width: 33%;
 }
