@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas Compras</title>
 
@@ -49,7 +48,7 @@
         <section class="main__application">
             <p class="main__application__title">Minhas Compras</p>
             <div class="main__application__app">
-                <input type="search" class="main__application__app-search"name="pesquisa" id="pesquisa" placeholder="Pesquise por nome ou código de barras">
+                <input type="search" class="main__application__app-search"name="pesquisa" id="pesquisa" placeholder="Pesquise por nome ou código de barras" data-usuario-input>
                 <input type="button" class="main__application__app-button"name="pesquisa" value="Pesquisar">
             </div>
             <div class="main__application__table">
@@ -75,6 +74,6 @@
             </div>
         </section>
     </main>
-    
+    <script src="script/capturaInput.js"></script>
 </body>
 </html>
