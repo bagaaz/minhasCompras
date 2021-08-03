@@ -1,0 +1,72 @@
+.main__application {
+    background-color: #656565;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main__application__title {
+    color: #f0f0f0;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+.main__application__app {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.main__application__app-search {
+    width: 50%;
+    height:25px;
+}
+.main__application__app-button {
+    background-color: #f56262;
+    border: none;
+    color: #f0f0f0;
+    width: 30%;
+    height:35px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.main__application__app-button:hover {
+    background-color: #f82f2f;
+}
+
+/* Tabela de Dados */
+.main__application__table {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+}
+.main__application__table-tabela {
+    margin: 2rem 1rem;
+}
+.main__application__table-tabela-cabeçalho {
+    color: #f0f0f0;
+    font-size: 1.5rem;
+}
+.main__application__table-tabela-titulo {
+    padding: 0 .5rem;
+}
+.main__application__table-tabela-tr {
+    background-color: #f0f0f0;
+    font-size: 1rem;
+}
+.main__application__table-tabela-td {
+    height: 40px;
+    padding: 0 2rem;
+    vertical-align: middle;
+}
+.main__application__table-tabela-td button {
+    background-color: #f56262;
+    border: none;
+    color: #f0f0f0;
+    padding: 10px 7px;
+
+}
