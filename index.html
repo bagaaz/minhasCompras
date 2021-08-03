@@ -48,11 +48,11 @@
         <section class="main__application">
             <p class="main__application__title">Minhas Compras</p>
             <div class="main__application__app">
-                <input type="search" class="main__application__app-search"name="pesquisa" id="pesquisa" placeholder="Pesquise por nome ou código de barras" data-usuario-input>
-                <input type="button" class="main__application__app-button"name="pesquisa" value="Pesquisar">
+                <input type="search" class="main__application__app-search" name="pesquisa" id="pesquisa" placeholder="Pesquise por nome ou código de barras" data-input-search>
+                <input type="button" class="main__application__app-button" name="pesquisa" value="Incluir" data-input-button>
             </div>
             <div class="main__application__table">
-                <table class="main__application__table-tabela">
+                <table class="main__application__table-tabela" data-app-tabela>
                     <tr class="main__application__table-tabela-cabeçalho">
                         <td class="main__application__table-tabela-titulo">Item</td>
                         <td class="main__application__table-tabela-titulo">Código</td>
@@ -75,5 +75,6 @@
         </section>
     </main>
     <script src="script/capturaInput.js"></script>
+    <script src="script/adicionaTabela.js"></script>
 </body>
 </html>
